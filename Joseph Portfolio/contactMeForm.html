@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="contactMeForm.css" />
+</head>
+
+<body>
+    <div class="container">
+      <div>
+        <h2>How may I help you?</h2>
+      </div>
+      <form>
+        <input type="text" id="firstName" name="firstname" placeholder="First name.." required />
+        <input type="text" id="lastName" name="lastname" placeholder="Last name.." required />
+        
+        <select required aria-required="true" id="selectCountry" name="selectCountry">
+          <option disabled selected>Select Your Country</option>
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="japan">Japan</option>
+          <option value="germany">Germany</option>
+        </select>
+
+        
+        <textarea id="subject" name="subject" placeholder="Message goes here." style="height:200px"
+          required></textarea>
+
+        <input type="submit" value="Submit"/>
+      </form>
+      <button class="btn"><i class="fa fa-home"><a href="Joseph Smith.html">Home</a></i></button>
+    </div>
+  </div>
+  
+</body>
+
+</html>
